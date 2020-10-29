@@ -1,0 +1,14 @@
+# MacOS's
+.DS_Store
+
+venv/
+__pycache__/
+todo/
+.pytest_cache/
+site/
+dist/
+.idea/
+test.py
+.pypirc
+vkmania.egg-info/
+build/
