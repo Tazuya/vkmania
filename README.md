@@ -14,7 +14,7 @@
    
    Last stable release:
    ```sh
-   pip install vkmania===0.0.1
+   pip install vkmania===0.0.3
    ```
 > Python version - python 3+
 

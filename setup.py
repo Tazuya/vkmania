@@ -1,14 +1,8 @@
 import setuptools
 from vkmania.const import __version__
 
-try:
-    with open("README.md", "r", encoding="utf-8") as f:
-        long_description = f.read()
-except UnicodeDecodeError:
-    with open("README.md", "r") as f:
-        long_description = f.read()
-except FileNotFoundError:
-    long_description = ""
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setuptools.setup(
     name="vkmania",
